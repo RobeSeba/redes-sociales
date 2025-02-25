@@ -1,9 +1,9 @@
 :root{
-    --fondo-fb: rgba(1, 29, 245, 0.993);
-    --fondo-tiktok:rgba(154, 150, 150, 0.675);
-    --fondo-twitter:rgb(82, 42, 226);
-    --fondo-linkendin:rgb(173, 216, 230);
-    --fondo-github:rgb(64, 234, 64);
+    --fondo-fb: rgba(66, 85, 228, 0.993);
+    --fondo-tiktok:rgba(135, 134, 134, 0.675);
+    --fondo-twitter:rgb(101, 67, 224);
+    --fondo-linkendin:rgb(123, 222, 255);
+    --fondo-github:rgb(35, 184, 35);
 }
 
 
@@ -48,14 +48,14 @@ body{
 .contenedor-fb:hover{
     background-color: var(--fondo-fb);
 
-    box-shadow: 2px 2px 50px 25px rgb(51, 37, 208);
+    box-shadow: 2px 2px 50px 25px var(--fondo-fb);
 }
 
 /*CONTENEDOR TIKTOK*/
 
 
 .contenedor-tiktok:hover{
-    box-shadow: 2px 2px 50px 25px rgba(47, 44, 44, 0.871);
+    box-shadow: 2px 2px 50px 25px var(--fondo-tiktok);
     background-color: var(--fondo-tiktok);
 }
 
@@ -66,7 +66,7 @@ body{
 /*Contenedor Twitter*/
 
 .contenedor-twitter:hover{
-    box-shadow: 2px 2px 50px 25px rgb(42, 14, 144);
+    box-shadow: 2px 2px 50px 25px var(--fondo-twitter);
     background-color: var(--fondo-twitter);
 }
 
@@ -95,7 +95,6 @@ body{
 }
 
 .contenedor .fa-facebook:hover{
-    color: rgb(95, 95, 253);
     transform: scale(1);
 }
 .boton:hover{
